@@ -27,22 +27,14 @@ function readSerialData(data) {
 		}
 	});
 	}
-	else if(data.toString() == "B"){
+	else if(data.toString() == "B")
 		console.log("Next");
 		mediaController.executeCommand('next', function(err, result) {
 		if(!err) {
 			console.log('done!');
 		}
 	});
-	} 
-	else {
-		console.log("Next");
-		mediaController.executeCommand('play', function(err, result) {
-		if(!err) {
-			console.log('done!');
-		}
-	});
-	}
+   // console.log('Data received' + data.toString());
 }
 
 function showPortClose() {
@@ -53,11 +45,14 @@ function showError(error) {
 	console.log('Serial port error: ' + error);
 }
 
+
 mediaController.getCommands();
 // ['play', 'pause', 'next', 'previous', 'skip'];
 
-mediaController.executeCommand('next', function(err, result) {
-	if(!err) {
-		console.log('done!');
-	}
-});
+// mediaController.executeCommand('next', function(err, result) {
+
+// 	if(!err) {
+// 		console.log('done!');
+// 	}
+
+// });
