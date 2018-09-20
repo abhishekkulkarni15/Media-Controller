@@ -21,3 +21,5 @@ Download this Node code and change the portName to the one from the above point 
 Now, we are almost done with the process. Open Spotify and play a track. After you click on “A” or “B” button, you can change the tracks as next or previous.
 
 You can use [‘play’, ‘pause’, ‘next’, ‘previous’, ‘skip’] for your own customized buttons!
+
+For more information, visit my [Medium](https://medium.com/@abhishekkulkarni15/control-spotify-desktop-app-windows-music-player-using-micro-bit-and-node-js-e43335dcb360) post.
